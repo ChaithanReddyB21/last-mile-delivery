@@ -191,7 +191,7 @@ Nexus Delivery is a **four-member group project**. All four members share credit
 | --- | --- |
 | **[Aryan Surapaneni](https://github.com/aryansurapaneni)** | Project team member |
 | **[Anish Layam](https://github.com/anishlayam22)** | Project team member |
-| **[B. Chaithan Reddy](https://github.com/ChaithanReddyB21)** | Project team member · repository maintainer |
+| **[B. Chaithan Reddy](https://github.com/ChaithanReddyB21)** | Project team member |
 | **[A. Chetan Reddy](https://github.com/Chetan-404)** | Project team member |
 
 Team names follow the submitted project report. Specific individual roles are not assigned here without confirmation; code contributions are recorded in the Git history. See [contributing](CONTRIBUTING.md) for the development workflow.
