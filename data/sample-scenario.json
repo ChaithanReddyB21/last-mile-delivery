@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "config": {
+    "nodeCount": 10,
+    "capacity": 25,
+    "density": 0.22,
+    "seed": 2026,
+    "maxProfit": 500,
+    "speed": 30,
+    "service": 2,
+    "start": "09:00"
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Warehouse",
+      "x": 50,
+      "y": 50,
+      "weight": 0,
+      "profit": 0,
+      "deadline": 1440
+    },
+    {
+      "id": 1,
+      "name": "Customer 01",
+      "x": 46.25424674432725,
+      "y": 33.9136762637645,
+      "weight": 6,
+      "profit": 328,
+      "deadline": 70
+    },
+    {
+      "id": 2,
+      "name": "Customer 02",
+      "x": 26.634838053956628,
+      "y": 65.36023257300258,
+      "weight": 7,
+      "profit": 182,
+      "deadline": 52
+    },
+    {
+      "id": 3,
+      "name": "Customer 03",
+      "x": 13.593366432003677,
+      "y": 60.04476978909224,
+      "weight": 4,
+      "profit": 101,
+      "deadline": 74
+    },
+    {
+      "id": 4,
+      "name": "Customer 04",
+      "x": 35.80908554978669,
+      "y": 42.162867214530706,
+      "weight": 8,
+      "profit": 304,
+      "deadline": 45
+    },
+    {
+      "id": 5,
+      "name": "Customer 05",
+      "x": 25.121620999649167,
+      "y": 31.191973260603845,
+      "weight": 7,
+      "profit": 479,
+      "deadline": 201
+    },
+    {
+      "id": 6,
+      "name": "Customer 06",
+      "x": 72.27325104828924,
+      "y": 31.39356638584286,
+      "weight": 3,
+      "profit": 236,
+      "deadline": 92
+    },
+    {
+      "id": 7,
+      "name": "Customer 07",
+      "x": 63.75743929017335,
+      "y": 78.7658536368981,
+      "weight": 3,
+      "profit": 464,
+      "deadline": 58
+    },
+    {
+      "id": 8,
+      "name": "Customer 08",
+      "x": 11.427619012072682,
+      "y": 36.171551927924156,
+      "weight": 7,
+      "profit": 384,
+      "deadline": 110
+    },
+    {
+      "id": 9,
+      "name": "Customer 09",
+      "x": 89.25619843322784,
+      "y": 64.82329770736396,
+      "weight": 6,
+      "profit": 214,
+      "deadline": 50
+    },
+    {
+      "id": 10,
+      "name": "Customer 10",
+      "x": 91.40808776207268,
+      "y": 23.314329812303185,
+      "weight": 8,
+      "profit": 424,
+      "deadline": 90
+    }
+  ],
+  "edges": [
+    {
+      "id": "0-1",
+      "u": 0,
+      "v": 1,
+      "distance": 2.1471674577706157,
+      "minutes": 5.034828793831904,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "0-2",
+      "u": 0,
+      "v": 2,
+      "distance": 3.635046269733084,
+      "minutes": 7.721542432797164,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "2-3",
+      "u": 2,
+      "v": 3,
+      "distance": 1.830804943400428,
+      "minutes": 4.912754983936792,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "1-4",
+      "u": 1,
+      "v": 4,
+      "distance": 1.7302728654475714,
+      "minutes": 4.187516836530048,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "4-5",
+      "u": 4,
+      "v": 5,
+      "distance": 1.9910908502459053,
+      "minutes": 5.194352875931438,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "1-6",
+      "u": 1,
+      "v": 6,
+      "distance": 3.3982993107070496,
+      "minutes": 8.622828704421707,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "0-7",
+      "u": 0,
+      "v": 7,
+      "distance": 4.145229892861193,
+      "minutes": 10.029325827359914,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "5-8",
+      "u": 5,
+      "v": 8,
+      "distance": 1.8942650318691645,
+      "minutes": 4.400827076972104,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "7-9",
+      "u": 7,
+      "v": 9,
+      "distance": 3.7780191587992777,
+      "minutes": 8.883326507268853,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "6-10",
+      "u": 6,
+      "v": 10,
+      "distance": 2.7001724149574136,
+      "minutes": 6.892241847169302,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "0-6",
+      "u": 0,
+      "v": 6,
+      "distance": 3.7729061373507307,
+      "minutes": 8.017586265118272,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "0-10",
+      "u": 0,
+      "v": 10,
+      "distance": 6.404073302249042,
+      "minutes": 13.57195650218818,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "1-7",
+      "u": 1,
+      "v": 7,
+      "distance": 6.259037037635679,
+      "minutes": 16.761308465454892,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "2-5",
+      "u": 2,
+      "v": 5,
+      "distance": 4.446227627770289,
+      "minutes": 11.727969199091595,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "2-9",
+      "u": 2,
+      "v": 9,
+      "distance": 8.141076093743898,
+      "minutes": 21.71446581151329,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "3-6",
+      "u": 3,
+      "v": 6,
+      "distance": 8.489129715353085,
+      "minutes": 18.41994768644201,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "3-10",
+      "u": 3,
+      "v": 10,
+      "distance": 11.186238317412387,
+      "minutes": 23.134963235941118,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "5-7",
+      "u": 5,
+      "v": 7,
+      "distance": 7.967208374249695,
+      "minutes": 19.29287040598334,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "5-9",
+      "u": 5,
+      "v": 9,
+      "distance": 9.414289092225463,
+      "minutes": 22.46518290772156,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "5-10",
+      "u": 5,
+      "v": 10,
+      "distance": 8.67788019750451,
+      "minutes": 21.167242419883355,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "6-8",
+      "u": 6,
+      "v": 8,
+      "distance": 7.93428253939739,
+      "minutes": 17.13515988439324,
+      "blocked": false,
+      "delay": 1
+    },
+    {
+      "id": "7-10",
+      "u": 7,
+      "v": 10,
+      "distance": 8.055207294416835,
+      "minutes": 18.361346791287332,
+      "blocked": false,
+      "delay": 1
+    }
+  ]
+}

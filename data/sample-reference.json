@@ -1,0 +1,16 @@
+{
+  "optimized": {
+    "profit": 1751,
+    "weight": 25,
+    "order": [
+      7,
+      10,
+      8,
+      5
+    ],
+    "minutes": 79.23559993347527,
+    "distance": 30.597688346966088
+  },
+  "greedyProfit": 1563,
+  "bound": 1751
+}
