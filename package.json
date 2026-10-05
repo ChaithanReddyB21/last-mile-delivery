@@ -1,0 +1,8 @@
+{
+  "name": "nexus-delivery-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline last-mile delivery simulator and DAA algorithm lab",
+  "scripts": { "start": "node server.cjs", "test": "node --test tests/engine.test.cjs", "build": "node build.cjs" },
+  "engines": { "node": ">=18" }
+}
