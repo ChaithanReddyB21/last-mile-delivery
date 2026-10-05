@@ -1,0 +1,29 @@
+name: Verify algorithms and build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Verify JavaScript algorithms
+        run: npm test
+      - name: Verify Python reference implementation
+        run: python -m unittest discover -s python -v
+      - name: Build static website
+        run: npm run build
