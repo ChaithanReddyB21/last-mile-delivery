@@ -1,0 +1,67 @@
+{
+  "runtime": "v24.19.0",
+  "measuredOn": "2026-10-05",
+  "repeats": 3,
+  "cases": [
+    {
+      "nodeCount": 8,
+      "density": 0.1,
+      "capacity": 10,
+      "seed": 2026,
+      "method": "exact",
+      "greedy": 801,
+      "profit": 943,
+      "bound": 943,
+      "distance": 20.02752213265057,
+      "minutes": 48.9921266917019,
+      "stops": 2,
+      "meanRuntimeMs": 0.6844999999999987,
+      "stable": true
+    },
+    {
+      "nodeCount": 12,
+      "density": 0.22,
+      "capacity": 25,
+      "seed": 2026,
+      "method": "exact",
+      "greedy": 1839,
+      "profit": 1879,
+      "bound": 1879,
+      "distance": 29.182596491693047,
+      "minutes": 78.50198850403201,
+      "stops": 5,
+      "meanRuntimeMs": 1.2937333333333332,
+      "stable": true
+    },
+    {
+      "nodeCount": 20,
+      "density": 0.35,
+      "capacity": 35,
+      "seed": 2026,
+      "method": "heuristic",
+      "greedy": 3221,
+      "profit": 3549,
+      "bound": 3549,
+      "distance": 49.15509245813413,
+      "minutes": 125.90510073959715,
+      "stops": 9,
+      "meanRuntimeMs": 0.7445000000000009,
+      "stable": true
+    },
+    {
+      "nodeCount": 40,
+      "density": 0.6,
+      "capacity": 60,
+      "seed": 2026,
+      "method": "heuristic",
+      "greedy": 4925,
+      "profit": 5435,
+      "bound": 5819,
+      "distance": 72.09929679099332,
+      "minutes": 191.1219794728288,
+      "stops": 16,
+      "meanRuntimeMs": 5.285600000000001,
+      "stable": true
+    }
+  ]
+}
